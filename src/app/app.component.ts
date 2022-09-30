@@ -11,5 +11,9 @@ export class AppComponent {
   masterClick() {
     console.log("masterClick");
   }
+
+  masterClick2() {
+    console.log("masterClick");
+  }
 }
 
