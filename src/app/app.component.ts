@@ -8,8 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'git-test';
 
-  masterClick() {
+  masterClick(ev: any) {
     console.log("masterClick");
+    console.log(ev);
   }
 }
 
